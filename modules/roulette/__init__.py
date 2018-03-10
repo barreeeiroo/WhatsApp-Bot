@@ -24,7 +24,7 @@ Handles command
 !click
 '''
 def handle_command(message):
-    actions = ['🔫 💨 CLICK', '🔫 💨 CLICK', '🔫 💨 CLICK', '🔫 💨 CLICK', '🔫 💨 CLICK', '🔫💥😵 BANG!']
+    actions = ['😛☁️🔫 CLICK', '😛☁️🔫 CLICK', '😛☁️🔫 CLICK', '😛☁️🔫 CLICK', '😛☁️🔫 CLICK', '😵💥🔫 BAAANG!']
     response = random.choice(actions)
     mac.send_message(response, message.conversation)
         
